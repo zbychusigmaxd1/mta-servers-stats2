@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statystyki Serwerów MTA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Statystyki Serwerów MTA</h1>
+
+        <table id="servers-table">
+            <thead>
+                <tr>
+                    <th>Nazwa Serwera</th>
+                    <th>Liczba Graczy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Serwery będą wyświetlane tutaj -->
+            </tbody>
+        </table>
+
+        <div class="add-server-form">
+            <h2>Dodaj Nowy Serwer</h2>
+            <label for="new-server-name">Nazwa Serwera:</label>
+            <input type="text" id="new-server-name" placeholder="Wpisz nazwę serwera">
+
+            <label for="new-player-count">Liczba Graczy:</label>
+            <input type="text" id="new-player-count" placeholder="Wpisz liczbę graczy (np. 10/100)">
+
+            <button id="add-server">Dodaj Serwer</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
